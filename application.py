@@ -14,6 +14,7 @@ formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(messag
 
 # Add Formatter to Handler
 handler.setFormatter(formatter)
+print('Help me with the update')
 
 # add Handler to Logger
 logger.addHandler(handler)
